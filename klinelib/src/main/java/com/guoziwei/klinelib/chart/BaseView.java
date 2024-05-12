@@ -35,7 +35,7 @@ class BaseView extends LinearLayout {
     protected int mTransparentColor;
 
 
-    public int MAX_COUNT = 150;
+    public int MAX_COUNT = 450;
     public int MIN_COUNT = 10;
     public int INIT_COUNT = 80;
 

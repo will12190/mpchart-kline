@@ -396,7 +396,7 @@ public class KLineView extends BaseView implements CoupleChartGestureListener.On
         set.setDecreasingPaintStyle(Paint.Style.FILL);
         set.setShadowColorSameAsCandle(true);
         set.setIncreasingColor(mIncreasingColor);
-        set.setIncreasingPaintStyle(Paint.Style.FILL);
+        set.setIncreasingPaintStyle(Paint.Style.STROKE);
         set.setNeutralColor(ContextCompat.getColor(getContext(), R.color.increasing_color));
         set.setDrawValues(true);
         set.setValueTextSize(10);
