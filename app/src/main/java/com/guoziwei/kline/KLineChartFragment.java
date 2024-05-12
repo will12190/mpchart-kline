@@ -157,7 +157,7 @@ public class KLineChartFragment extends Fragment {
                     }
                 });
             }
-        }, 500, 1000);
+        }, 250, 1000);
     }
 
 }
